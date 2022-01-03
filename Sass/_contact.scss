@@ -1,0 +1,11 @@
+#contact{
+
+
+    .star{
+        span{
+            &::before, &::after{
+                background-color: $primaryColor;
+            }
+        }
+    }
+}
