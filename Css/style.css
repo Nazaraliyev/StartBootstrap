@@ -218,6 +218,46 @@ header nav ul li:hover {
   background-color: #2d3f50;
 }
 
+#contact form input, #contact form textarea {
+  border: none;
+  border-bottom: 1px solid #6C757D;
+  font-size: 20px;
+  height: 80px;
+  margin-bottom: 50px;
+  outline: none;
+  padding-left: 0;
+  -moz-appearance: textfield;
+}
+
+#contact form input:focus, #contact form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact form input::-webkit-outer-spin-button, #contact form input::-webkit-inner-spin-button, #contact form textarea::-webkit-outer-spin-button, #contact form textarea::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#contact form textarea {
+  height: 200px;
+}
+
+#contact form label {
+  font-size: 20px;
+  color: #6C757D;
+  padding-left: 0;
+}
+
+#contact form button {
+  background-color: #1bbd9c;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
 footer {
   background-color: #2d3f50;
   color: #fff;
